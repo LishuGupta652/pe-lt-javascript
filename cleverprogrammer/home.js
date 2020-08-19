@@ -108,3 +108,15 @@ Return : "Hello Lishu"
 //   emptyArray.push(Math.random());
 // }
 // console.log(emptyArray);
+
+// Objects
+let student = {
+  first: "lishu",
+  last: "gupta",
+  age: 20,
+  height: 180,
+  studentInfo: function () {
+    return this.first + "\n" + this.last;
+  },
+};
+console.log(student.studentInfo());
