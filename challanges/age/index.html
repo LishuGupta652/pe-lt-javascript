@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        font-family: sans-serif;
+        background-color: #fafafa;
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      button {
+        padding: 10px 15px;
+        text-transform: uppercase;
+        border: none;
+        margin: 0 20px;
+        background-color: #313131;
+        color: #fafafa;
+        box-shadow: 2px 2px 12px 12px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+    <title>Age in days</title>
+  </head>
+  <body>
+    <div>
+      <h1>Age in days</h1>
+      <button onclick="calculate()">Age</button>
+      <button>Reset</button>
+      <h3 id="result"></h3>
+    </div>
+
+    <script>
+      const calculate = () => {
+        var ageInYear = prompt("In which year you were born.. Good Friend? ");
+        var ageInDays = (2020 - ageInYear) * 365;
+        var h1 = document.createElement("h1");
+        var textAnswer = document.createTextNode(
+          "You are " + ageInDays + " days old."
+        );
+        h1.setAttribute("id", "ageInDays");
+        h1.appendChild(textAnswer);
+        document.getElementById("result").appendChild(h1);
+      };
+    </script>
+  </body>
+</html>
