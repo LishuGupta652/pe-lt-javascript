@@ -110,13 +110,29 @@ Return : "Hello Lishu"
 // console.log(emptyArray);
 
 // Objects
-let student = {
-  first: "lishu",
-  last: "gupta",
-  age: 20,
-  height: 180,
-  studentInfo: function () {
-    return this.first + "\n" + this.last;
-  },
-};
-console.log(student.studentInfo());
+// let student = {
+//   first: "lishu",
+//   last: "gupta",
+//   age: 20,
+//   height: 180,
+//   studentInfo: function () {
+//     return this.first + "\n" + this.last;
+//   },
+// };
+// console.log(student.studentInfo());
+
+// json
+// let students = `[
+//     {
+//       "name": "lishu",
+//       "age": 30,
+//       "height": 150
+//     },
+//     {
+//       "name": "tarun",
+//       "age": 25,
+//       "height": 160
+//     }
+//   ]
+//   `;
+// console.log(JSON.parse(students));
