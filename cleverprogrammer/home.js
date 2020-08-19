@@ -46,3 +46,13 @@ Return : "Hello Lishu"
 // for (let num = 0; num < 100; num++) {
 //   console.log(num);
 // }
+
+// Data type
+let namesignle = "lishu";
+let age = 12;
+let name = { first: "hane", last: "doe" };
+let trade = false;
+let grocries = ["trade", "fruid", "banana"];
+let nothhing; // undefined
+console.log(nothhing);
+let nummvalue = null; // null
