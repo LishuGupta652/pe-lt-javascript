@@ -73,32 +73,38 @@ Return : "Hello Lishu"
 // console.log(fruits.split("a"));
 
 // Arrays
-let fruits = ["banana", "apple", "orange", "mango", "watermellon"];
-fruits = new Array("banana", "apple", "orange", "mango", "watermellon");
+// let fruits = ["banana", "apple", "orange", "mango", "watermellon"];
+// fruits = new Array("banana", "apple", "orange", "mango", "watermellon");
 
-console.log(fruits[1]);
+// console.log(fruits[1]);
 
-for (let i = 0; i < fruits.length; i++) {
-  console.log(fruits[i]);
-}
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
 
-// Common methhods
-console.log("To String : ", fruits.toString());
-console.log(fruits.join(" * "));
-console.log(fruits.pop());
-console.log(fruits.push("blackberries"), fruits);
-console.log(fruits.length);
-console.log(fruits.shift()); // Add elements to the start
-console.log(fruits.unshift("kiwi")); // Add elements to the end
+// // Common methhods
+// console.log("To String : ", fruits.toString());
+// console.log(fruits.join(" * "));
+// console.log(fruits.pop());
+// console.log(fruits.push("blackberries"), fruits);
+// console.log(fruits.length);
+// console.log(fruits.shift()); // Add elements to the start
+// console.log(fruits.unshift("kiwi")); // Add elements to the end
 
-let veg = ["tamatoes", "potaot"];
-let groc = fruits.concat(veg);
-console.log(groc);
-console.log(groc.slice(1, 4));
-console.log(groc.reverse());
-console.log(groc.sort());
+// let veg = ["tamatoes", "potaot"];
+// let groc = fruits.concat(veg);
+// console.log(groc);
+// console.log(groc.slice(1, 4));
+// console.log(groc.reverse());
+// console.log(groc.sort());
 
 // Sorting
-let numbs = [19, 23, 5324, 123, , 23, 543, 23, 453, 123, 65, 2, 43, 1, 6];
-console.log(numbs.sort((a, b) => a - b));
-console.log(numbs.sort((a, b) => b - a));
+// let numbs = [19, 23, 5324, 123, , 23, 543, 23, 453, 123, 65, 2, 43, 1, 6];
+// console.log(numbs.sort((a, b) => a - b));
+// console.log(numbs.sort((a, b) => b - a));
+
+// let emptyArray = new Array();
+// for (let j = 0; j < 100; j++) {
+//   emptyArray.push(Math.random());
+// }
+// console.log(emptyArray);
