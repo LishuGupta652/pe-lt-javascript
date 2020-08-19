@@ -36,7 +36,7 @@
     <div>
       <h1>Age in days</h1>
       <button onclick="calculate()">Age</button>
-      <button>Reset</button>
+      <button onclick="reset()">Reset</button>
       <h3 id="result"></h3>
     </div>
 
@@ -51,6 +51,9 @@
         h1.setAttribute("id", "ageInDays");
         h1.appendChild(textAnswer);
         document.getElementById("result").appendChild(h1);
+      };
+      const reset = () => {
+        document.getElementById("ageInDays").remove();
       };
     </script>
   </body>
