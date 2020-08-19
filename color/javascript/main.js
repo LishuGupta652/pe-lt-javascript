@@ -11,6 +11,7 @@ const changeHex = () => {
   for (let i = 0; i < 6; i++) {
     hexColor += colors[Math.floor(Math.random() * colors.length)];
   }
+  document.getElementById("colorText").innerHTML = hexColor;
   console.log(hexColor);
   document.body.style.backgroundColor = hexColor;
 };
