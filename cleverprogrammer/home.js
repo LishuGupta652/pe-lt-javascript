@@ -34,3 +34,15 @@ Return : "Hello Lishu"
 // }
 // var res = add(20, 20);
 // console.log(res);
+
+// While loops
+// var num = 0;
+// while (num < 100) {
+//   num += 1;
+//   console.log(num);
+// }
+
+// For looops
+// for (let num = 0; num < 100; num++) {
+//   console.log(num);
+// }
