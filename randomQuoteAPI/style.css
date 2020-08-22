@@ -1,0 +1,51 @@
+::selection{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: #fbc531;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background-color 1s;
+}
+.shadow .card-body{
+    box-shadow: 0px 15px 15px grey, 0px 20px 20px grey, 1px 25px 25px grey;
+}
+.content p{
+    font-size: 22px;
+    margin-left: auto;
+}
+.content ul {
+    list-style: none;
+    font-size: 50px;
+}
+.content ul .next{
+    margin-left: auto;
+}
+.btn{
+    font-size: 25px;
+    background-color: #fbc531;
+    border:none;
+    outline: none;
+    transition: background-color 1s;
+}
+.btn:active, .btn:focus, .btn:visited{
+    outline: none;
+    border: none;
+}
+
+.content ul .social-hover i:hover{
+    color: grey;
+}
+
+.card-body{
+    max-width: 800px;
+}
+
+#author {
+    color: #fbc531;
+    transition: color 1s;
+}
